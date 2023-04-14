@@ -1,0 +1,28 @@
+.projectSummary {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 4px;
+}
+.projectSummary .dueDate {
+  margin: 10px 0;
+  font-size: 0.9em;
+  color: var(--title-color);
+}
+.projectSummary .details {
+  margin: 30px 0;
+  color: var(--text-color);
+  line-height: 1.8em;
+  font-size: 0.9em;
+}
+.projectSummary h4 {
+  color: var(--text-color);
+  font-size: 0.9em;
+}
+.projectSummary .assignedUsers {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+.projectSummary + button {
+  margin-top: 20px;
+}
